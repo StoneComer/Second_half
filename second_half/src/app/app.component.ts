@@ -51,4 +51,11 @@ export class AppComponent {
       }
     })
   }
+  deleteUsers6(){
+    this.dataService.deleteUsers6().subscribe({
+      next: (response) => {
+        console.log(response);
+      }
+    })
+  }
 }

@@ -32,6 +32,6 @@ export class DataService {
     //return this.http.delete('https://jsonplaceholder.typicode.com/posts', { headers: {'X-Test': '1', responseType: 'text'}});
   }
   resUsers1(){
-    return this.http.get('https://jsonplaceholder.typicode.com/posts',{responseType: 'text'})
+    return this.http.get('https://jsonplaceholder.typicode.com/posts/1',{responseType: 'text'})
   }
 }
